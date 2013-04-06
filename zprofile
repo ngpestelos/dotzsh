@@ -6,3 +6,5 @@
 #
 
 eval "$(fasd --init auto)"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
